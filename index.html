@@ -2,47 +2,51 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucky Jet - Jeu de casino sur 1win</title>
-    <meta name="description" content="Jouez à Lucky Jet, le jeu populaire de casino sur 1win. Décollage instantané et gains rapides!">
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky jet</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body class="page">
-    <div class="background">
-        <img id="ob1" class="obloko" src="images/obl.svg" alt="Nuage décoratif">
-        <img id="ob2" class="obloko2" src="images/obl.svg" alt="Nuage décoratif">
+
+    
+   
+    <div class="cv">
+        <img id="ob1" class="obloko" src="images/obl.svg">
+        <img id="ob2" class="obloko2" src="images/obl.svg">
+        
     </div>
 
-    <header class="winner">
-        <img class="luck" src="images/Lucky.svg" alt="Lucky Jet">
-        <img class="win" src="images/1win_logo.png" alt="1win Casino">
-    </header>
 
-    <main class="game-container">
-        <div class="rocket-game">
-            <a href="https://1whtdf.life/v3/landing-page/casino" target="_blank" rel="noopener noreferrer">
-                <button class="play-button">JOUER MAINTENANT</button>
-            </a>
-            
-            <div id="responseText" class="game-message"></div>
-            <div class="loader"></div>
-            
-            <div class="game-frame">
-                <iframe id="gameIframe" src="https://100hp.app/lucky/onewin/?exitUrl=https%253A%252F%252F1wdqjx.top%252Fcasino&language=en&b=demo" 
-                        onload="hideLoader()" 
-                        scrolling="no"
-                        title="Jeu Lucky Jet"
-                        allow="autoplay; fullscreen">
-                </iframe>
-            </div>
+   
+    <div class="winner">
+        <img  class="luck" src="images/Lucky.svg">
+        <img class="win" src="images/1win_logo.png">
+    </div>
+
+    
+
+    <div class="rocket">
+        
+        <a href="https://1whtdf.life/v3/landing-page/casino" target="_blank2">
+            <button class="button2">GO TO GAME</button>
+        </a>
+      
+
+        <div id="responseText" class="text"></div>
+        <div class="loader2"></div>
+        <div class="visible">
+            <iframe id="myIframe" src="https://100hp.app/lucky/onewin/?exitUrl=https%253A%252F%252F1wdqjx.top%252Fcasino&language=en&b=demo" onload="hideElements()" scrolling="no"></iframe>
         </div>
-    </main>
+   
 
-    <div id="result" class="random-result"></div>
-
+        
     <script src="script.js"></script>
+   
+    <div id="result" class="rand"></div>
+    
+
 </body>
 </html>
